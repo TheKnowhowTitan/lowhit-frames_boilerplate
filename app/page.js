@@ -16,7 +16,7 @@ const frameMetadata = getFrameMetadata({
     // {
     //   label: "Begin"
     // }}
-    //add mulitple buutton 
+    //add mulitple button 
 
   ],
 
