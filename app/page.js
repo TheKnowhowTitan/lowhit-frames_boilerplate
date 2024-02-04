@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: 'https://previews.123rf.com/images/zurijeta/zurijeta0908/zurijeta090800655/5396368-standard-brick-pattern-shape-background.jpg',
-  post_url: 'your_url_here',
+  post_url: 'https://lowhit-frames-boilerplate.vercel.app/api',
 });
 
 export const metadata = {
