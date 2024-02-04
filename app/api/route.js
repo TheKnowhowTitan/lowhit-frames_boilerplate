@@ -9,7 +9,7 @@ async function getResponse(req) {
       <head>
         <meta charset="UTF-8">
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="https://previews.123rf.com/images/zurijeta/zurijeta0908/zurijeta090800655/5396368-standard-brick-pattern-shape-background.jpg" />
+        <meta property="fc:frame:image" content="https://static.vecteezy.com/system/resources/thumbnails/028/217/595/small/rendered-illustration-of-a-dark-abstract-concrete-room-illuminated-at-night-architectural-background-free-photo.jpg" />
         <meta property="fc:frame:button:1" content="Next" />
         <meta property="fc:frame:button:1:action" content="post_redirect" />
         <!-- Add OpenGraph audio tags -->
