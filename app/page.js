@@ -1,39 +1,28 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 
 const frameMetadata = getFrameMetadata({
-
-   // buttons that you want to see in frames 
   buttons: [
     {
-      label: "Next" //add your button name 
+      label: "Next",
     },
-    // {
-    //   label: "Begin" 
-    // },
-    // {
-    //   label: "Begin" 
-    // },
-    // {
-    //   label: "Begin"
-    // }}
-    //add mulitple button 
-
   ],
-
-  // link to image that will be first displayed when frames rendred
-  image: 'your_image_link_here',
-
-  //which api to call when we click next button
+  image: 'https://previews.123rf.com/images/zurijeta/zurijeta0908/zurijeta090800655/5396368-standard-brick-pattern-shape-background.jpg',
   post_url: 'your_url_here',
 });
 
 export const metadata = {
-  title: 'Give a fun Title to your page',//these are html page attributes, chose as you want
-  description: 'Give  a small description of page',
-  openGraph: { //open graph is a protocaol created by facebook, frames are built on top of these protocol
+  title: 'Give a fun Title to your page',
+  description: 'Give a small description of the page',
+  openGraph: {
     title: 'Give your frame a crazy title',
     description: 'Give your frame a crazy description',
-    images: ['next image link'],
+    images: ['https://static.vecteezy.com/system/resources/thumbnails/028/217/595/small/rendered-illustration-of-a-dark-abstract-concrete-room-illuminated-at-night-architectural-background-free-photo.jpg'],
+    audio: [
+      {
+        url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+        type: 'audio/mp3',
+      },
+    ],
   },
   other: {
     ...frameMetadata,
@@ -43,7 +32,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <h1>test</h1>
+      <h1>Welcome to a sample page</h1>
     </>
   );
 }
